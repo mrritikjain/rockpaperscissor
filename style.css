@@ -59,13 +59,16 @@ body{
 .option_image{
     cursor: pointer;
     opacity: 0.5;
+    padding: 20px 40px;
 }
 .option_image:hover{
     opacity: 1;
 }
-.option_image{
-    padding: 20px 40px;
+.option_image:active{
+    opacity: 1;
 }
+
+
 .option_image p {
     color: #7d2ae8;
     font-size: 1.235rem;
